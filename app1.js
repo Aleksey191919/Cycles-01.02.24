@@ -1,12 +1,14 @@
-let num = 10;
+/** @format */
+
+let minNum = 10;
+let maxNum = 20;
 let result = '';
 
-for (; num <= 20; num++) {
-    if (num !== 20) {
-        result += num + ', ';
-    }
-    else {
-        result += num;
-        console.log(result)
-    }
+for (minNum; minNum <= maxNum; minNum++) {
+  if (minNum !== maxNum) {
+    result += minNum + ', ';
+  } else {
+    result += minNum;
+  }
 }
+console.log(result);

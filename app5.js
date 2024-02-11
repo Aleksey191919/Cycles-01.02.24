@@ -1,7 +1,10 @@
+/** @format */
+let minNum = 15;
+let maxNum = 35;
 let result = 1;
 
-for (let i = 15; i <= 35; i++) {
-    result *= i;
+for (minNum; minNum <= maxNum; minNum++) {
+  result *= minNum;
 }
 
 console.log(`Произведение всех чисел от 15 до 35 равно: ${result}`);

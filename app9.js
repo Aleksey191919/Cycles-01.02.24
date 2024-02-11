@@ -1,14 +1,13 @@
-let num = parseInt(+prompt("Введите любое натуральное число"));
+/** @format */
+
+let num = parseInt(+prompt('Введите любое натуральное число'));
 
 if (!isNaN(num) && num !== 0) {
-   
-    for (let i = 1; i <= num; i++) {
-        if (num % i === 0) {
-            console.log(i);
-        }
+  for (let i = 1; i <= num; i++) {
+    if (num % i === 0) {
+      console.log(i);
     }
-
-}
-else {
-    alert("Вы ввели не корректные данные");
+  }
+} else {
+  alert('Вы ввели не корректные данные');
 }

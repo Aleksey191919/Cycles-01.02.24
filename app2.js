@@ -1,7 +1,10 @@
-let num = 10;
+/** @format */
 
-while(num <= 20) {
-    let result = `Квадрат числа ${num} равен ${num * num}`;
-    console.log(result);
-    num++;
+let minNum = 10;
+let maxNum = 20;
+
+while (minNum <= maxNum) {
+  let result = `Квадрат числа ${minNum} равен ${minNum * minNum}`;
+  console.log(result);
+  minNum++;
 }
